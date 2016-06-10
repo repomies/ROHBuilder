@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/repomies/ROHBuilder"
 
-  s.license      = "MIT (example)"
+  s.license      = "Poropietari"
 
   s.author             = { "Janne Käki" => "janne@awesomeness.pro" }
   s.social_media_url   = "http://twitter.com/ronsu"
