@@ -154,12 +154,6 @@
 - (UITextView *)buildWith:(void (^)(UITextView *))block;
 @end
 
-@interface ROHWebViewBuilder : ROHViewBuilder
-- (instancetype)with:(void (^)(UIWebView *webView))block;
-- (UIWebView *)build;
-- (UIWebView *)buildWith:(void (^)(UIWebView *webView))block;
-@end
-
 @interface ROHGradientLayerBuilder : ROHBuilder
 - (instancetype)with:(void (^)(CAGradientLayer *layer))block;
 - (CAGradientLayer *)build;
@@ -281,11 +275,6 @@
 @interface UITextView (ROHBuilder)
 + (ROHTextViewBuilder *)roh_with:(void (^)(UITextView *textView))block;
 + (instancetype)roh_buildWith:(void (^)(UITextView *textView))block;
-@end
-
-@interface UIWebView (ROHBuilder)
-+ (ROHWebViewBuilder *)roh_with:(void (^)(UIWebView *webView))block;
-+ (instancetype)roh_buildWith:(void (^)(UIWebView *webView))block;
 @end
 
 @interface CAGradientLayer (ROHBuilder)

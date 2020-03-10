@@ -414,17 +414,6 @@
 
 @end
 
-@implementation UIWebView (ROHBuilder)
-
-+ (ROHWebViewBuilder *)roh_with:(void (^)(UIWebView *))block
-{
-    return [ROHWebViewBuilder builderWithInitBlock:^id (ROHBuilder *builder) {
-        return [self new];
-    } editBlock:block];
-}
-
-@end
-
 @implementation CAGradientLayer (ROHBuilder)
 
 + (ROHGradientLayerBuilder *)roh_with:(void (^)(CAGradientLayer *))block
