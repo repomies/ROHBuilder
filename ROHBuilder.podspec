@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ROHBuilder"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A new awesome paradigm for creating and configuring objects in Objective-C."
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/repomies/ROHBuilder.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/repomies/ROHBuilder.git", :tag => "0.1.1" }
   s.source_files  = "*.{h,m}"
 
   s.requires_arc = true
