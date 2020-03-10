@@ -147,9 +147,6 @@
 @implementation ROHTextViewBuilder
 @end
 
-@implementation ROHWebViewBuilder
-@end
-
 @implementation ROHGradientLayerBuilder
 @end
 
